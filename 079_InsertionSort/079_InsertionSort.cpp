@@ -21,7 +21,7 @@ void input() { // procedur untuk input
     cout << "=====================" << endl;
 
     for (int i = 0; i < n; i++) { // looping dengan 1 dimulai dari 0 hingga n-1
-        cout << "data ke-" << (i + i) << "; "; // output ke layar
+        cout << "data ke-" << (i + i) << ": "; // output ke layar
         cin >> arr[i]; // output dari pengguna
     }
 }
@@ -31,7 +31,7 @@ void input() { // procedur untuk input
 void InsertionSort()
 {
     
-    int i, n, temp, j;
+    int i, temp, j;
 
     for (i = 1; i <= n - 1; i++)
     { // step 1
