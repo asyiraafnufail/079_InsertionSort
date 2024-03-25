@@ -1,3 +1,5 @@
+// insertion sort adalah : Memisahkan element menjadi 2 sublist, list yang sudah terurut dan list yang belum terutut. Kemudian dibandingkan kemudia dimasukan kedalam sublist terutut.
+
 #include <iostream>
 using namespace std;
 
